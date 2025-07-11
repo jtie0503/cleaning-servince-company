@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Only this Bootstrap link is needed; will be swapped dynamically -->
+  <link id="bootstrapCSS" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+     <header>
+    <nav class="navbar navbar-expand-lg justify-content-center">
+      <div class="container-fluid">
+        <img src="IMG/logo.png" alt="logo" width="150px" class="brand-logo" />
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Language</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item language-option" href="#" data-lang="en">English</a></li>
+                <li><a class="dropdown-item language-option" href="#" data-lang="ar">العربية</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                data-en="Services" data-ar="الخدمات">
+                Services
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#residential" data-en="Residential Cleaning" data-ar="تنظيف سكني">Residential Cleaning</a></li>
+                <li><a class="dropdown-item" href="#commercial" data-en="Commercial Cleaning" data-ar="تنظيف تجاري">Commercial Cleaning</a></li>
+                <li><a class="dropdown-item" href="#deep" data-en="Deep Cleaning" data-ar="تنظيف عميق">Deep Cleaning</a></li>
+                <li><a class="dropdown-item" href="#construction" data-en="Post-Construction Cleaning" data-ar="تنظيف ما بعد البناء">Post-Construction Cleaning</a></li>
+                <li><a class="dropdown-item" href="#movein/moveout" data-en="Move In / Move Out Cleaning" data-ar="تنظيف الانتقال/الخروج">Move In / Move Out Cleaning</a></li>
+            </ul>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <main>
+        <!--Home-->
+        <section  class="home"  id="home" data-aos="fade-up" data-aos-delay="200">
+            <h1>Your Trusted Partner in Clean Living</h1>
+            <p>From residential homes to large commercial buildings, we offer customized cleaning solutions with guaranteed satisfaction.</p>
+
+            <a href="#book-now" class="btn-book">Book Now</a>
+   
+        </section>
+
+        <section class="about" id="about" data-aos="fade-up" data-aos-delay="200">
+        <h2 class="about-titlle">About Us</h2>
+
+
+                <!--About-->
+        <section class="about">
+          <div class="about-container">
+
+            <div class="mission-vission">
+            <h3 class="mission-title">Welcome to Dessert Bloom Cleaning</h3>
+            <p><em>Your trusted cleaning partner in the Middle East</em></p>
+
+         <p data-en="At Dessert Bloom, we believe that a clean environment is the foundation of a healthy and productive life. Based in the heart of the Middle East, we proudly serve homes, offices, and industrial spaces with reliable and professional cleaning services." 
+            data-ar="في ديسرت بلوم، نؤمن بأن البيئة النظيفة هي أساس الحياة الصحية والمنتجة. نحن نخدم المنازل والمكاتب والمصانع في قلب الشرق الأوسط بخدمات تنظيف احترافية وموثوقة.">
+                At Dessert Bloom, we believe that a clean environment is the foundation of a healthy and productive life.
+                Based in the heart of the Middle East, we proudly serve homes, offices, and industrial spaces with reliable and
+                professional cleaning services.
+            </p>
+
+            <p
+                data-en="Our experienced, highly trained staff are committed to hygiene, comfort, and customer satisfaction. We respect your privacy, time, and cultural values — tailoring our services to your specific needs."
+                data-ar="يكرس طاقمنا ذو الخبرة والتدريب العالي جهوده للنظافة والراحة ورضا العملاء. نحن نحترم خصوصيتك ووقتك وقيمك الثقافية — ونخصص خدماتنا وفقًا لاحتياجاتك الخاصة.">
+                Our experienced, highly trained staff are committed to hygiene, comfort, and customer satisfaction.
+                We respect your privacy, time, and cultural values — tailoring our services to your specific needs.
+            </p>
+
+
+            <div class="text-center">
+                <img src="IMG/abous-us.png" class="rounded" style="max-width: 250px;" alt="Our cleaning staff at work">
+            </div>
+
+           <h4 data-en="What we offer:" data-ar="ماذا نقدم:">What we offer:</h4>
+
+            <ul>
+                <li><span class="icon">🏠</span> <a href="#residential">Residential Cleaning</a></li>
+                <li><span class="icon">🏢</span> <a href="#commercial">Commercial Cleaning</a></li>
+                <li><span class="icon">🧼</span> <a href="#deep">Deep Cleaning</a></li>
+               <li><span class="icon">🏗️</span><a href="#construction"data-en="Post-Construction Cleaning"data-ar="تنظيف ما بعد البناء"> Post-Construction Cleaning </a></li>
+                <li><span class="icon">🚚</span><a href="#movein/moveout"data-en="Move In / Move Out Cleaning"data-ar="تنظيف الانتقال/الخروج"> Move In / Move Out Cleaning </a></li>
+            </ul>
+            </div>
+
+        </div>
+        </section>
+
+
+
+          <!--Service-->
+        <section class="services" id="services">
+            <h2 data-en="Discover Our Cleaning Services" data-ar="اكتشف خدمات التنظيف لدينا">Discover Our Cleaning Services</h2>
+
+            <div class="card-service-container">
+                
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="100" id="residential">
+
+                    <img src="IMG/residential cleaning.png" alt="">
+                    <h3>Residential Cleaning</h3>
+                    <p 
+                        data-en="Our residential cleaning service brings comfort, cleanliness, and order to your home. From cozy apartments to spacious villas, we clean bedrooms, kitchens, and more — leaving every space fresh, hygienic, and ready for your family to enjoy." 
+                        data-ar="تجلب خدمة التنظيف السكني لدينا الراحة والنظافة والنظام إلى منزلك. من الشقق المريحة إلى الفيلات الفسيحة، نقوم بتنظيف غرف النوم والمطابخ والمزيد — مما يترك كل مساحة نظيفة وجاهزة لعائلتك.">
+                        Our residential cleaning service brings comfort, cleanliness, and order to your home. From cozy apartments to spacious villas, we clean bedrooms, kitchens, and more — leaving every space fresh, hygienic, and ready for your family to enjoy.
+                        </p>
+                          <a href="#book-now" class="btn-book" data-en="Book Now" data-ar="احجز الآن">Book Now</a>
+                </div>
+
+                  <div class="card-service" data-aos="zoom-in" data-aos-delay="100" id="commercial">
+
+                    <img src="IMG/commercila cleaning.png" alt="">
+                    <h3>Commercial Cleaning</h3>
+                    <p 
+                        data-en="We provide reliable commercial cleaning for offices, stores, and buildings. Our team ensures every space is spotless, sanitized, and welcoming—helping businesses maintain a healthy, professional environment for employees and clients every day." 
+                        data-ar="نحن نقدم خدمات تنظيف تجارية موثوقة للمكاتب والمتاجر والمباني. يضمن فريقنا أن تكون كل مساحة نظيفة ومعقمة ومرحبة — مما يساعد الشركات على الحفاظ على بيئة صحية ومهنية.">
+                        We provide reliable commercial cleaning for offices, stores, and buildings. Our team ensures every space is spotless, sanitized, and welcoming—helping businesses maintain a healthy, professional environment for employees and clients every day.
+                        </p>
+                          <a href="#book-now" class="btn-book" data-en="Book Now" data-ar="احجز الآن">Book Now</a>
+                </div>
+
+                <div class="card-service" data-aos="zoom-in" data-aos-delay="100" id="deep">
+                    <img src="IMG/deep cleaning .png" alt="">
+                    
+                    <h3 data-en="Deep Cleaning" data-ar="تنظيف عميق">Deep Cleaning</h3>
+                    
+                    <p 
+                        data-en="Our deep cleaning service targets hidden dirt and hard-to-reach areas. Ideal for seasonal or one-time cleanups, we provide a thorough top-to-bottom cleaning to restore freshness, hygiene, and comfort in every corner of your space." 
+                        data-ar="تستهدف خدمة التنظيف العميق لدينا الأوساخ المخفية والمناطق التي يصعب الوصول إليها. مثالية للتنظيف الموسمي أو لمرة واحدة، نقدم تنظيفًا شاملاً من الأعلى إلى الأسفل لاستعادة النظافة والراحة في كل ركن من أركان المساحة.">
+                        Our deep cleaning service targets hidden dirt and hard-to-reach areas. Ideal for seasonal or one-time cleanups, we provide a thorough top-to-bottom cleaning to restore freshness, hygiene, and comfort in every corner of your space.
+                    </p>
+                    
+                    <a href="#book-now" class="btn-book" data-en="Book Now" data-ar="احجز الآن">Book Now</a>
+             </div>
+
+
+
+            <div class="card-service" data-aos="zoom-in" data-aos-delay="100" id="construction">
+                <img src="IMG/post construction cleaning.png" alt="">
+                <h3 data-en="Post Construction Cleaning" data-ar="تنظيف ما بعد البناء">Post Construction Cleaning</h3>
+                <p 
+                    data-en="We handle the mess after construction—removing dust, debris, and residue from every surface. Our post-construction cleaning ensures your new or renovated space is spotless, safe, and ready for occupancy, whether residential or commercial."
+                    data-ar="نحن نتولى الفوضى بعد البناء — نزيل الغبار والحطام وبقايا المواد من كل سطح. تضمن خدمات التنظيف بعد البناء أن يكون مكانك الجديد أو المُجدد نظيفًا وآمنًا وجاهزًا للسكن، سواء كان سكنيًا أو تجاريًا.">
+                    We handle the mess after construction—removing dust, debris, and residue from every surface. Our post-construction cleaning ensures your new or renovated space is spotless, safe, and ready for occupancy, whether residential or commercial.
+                </p>
+                <a href="#book-now" class="btn-book" data-en="Book Now" data-ar="احجز الآن">Book Now</a>
+             </div>
+
+            <div class="card-service" data-aos="zoom-in" data-aos-delay="100" id="movein/moveout">
+                <img src="IMG/moveinmoveout cleaning.png" alt="">
+                <h3 data-en="Move-in/Move-Out" data-ar="تنظيف الانتقال/الخروج">Move-in/Move-Out</h3>
+                <p 
+                    data-en="We provide thorough cleaning before move-ins and after move-outs. From floors to fixtures, we ensure every space is spotless and sanitized—perfect for tenants, landlords, and property managers preparing homes for new occupancy."
+                    data-ar="نقدم تنظيفًا شاملاً قبل الانتقال وبعده. من الأرضيات إلى التركيبات، نضمن أن تكون كل مساحة نظيفة ومعقمة — مثالية للمستأجرين وأصحاب العقارات ومديري العقارات الذين يجهزون المنازل للسكن الجديد.">
+                    We provide thorough cleaning before move-ins and after move-outs. From floors to fixtures, we ensure every space is spotless and sanitized—perfect for tenants, landlords, and property managers preparing homes for new occupancy.
+                </p>
+                <a href="#book-now" class="btn-book" data-en="Book Now" data-ar="احجز الآن">Book Now</a>
+             </div>
+
+
+               
+            </div>
+        </section>
+
+
+
+          <!--Book-now-->
+     <section class="book-now" id="book-now">
+        <div class="form-action" data-aos="zoom-in" data-aos-delay="100">
+            <h2>Book Now</h2>
+<div style="display: flex; justify-content: center;">
+<iframe aria-label='Service Booking Form' frameborder="0" style="height:1000px;width:99%;border:none;" src='https://forms.zohopublic.com/cservices788gm1/form/ServiceBooking/formperma/yvBI2pEdvPSHmlIlZsZcdkkmLI9NfkW56mxy2fYpFl0'></iframe>
+
+
+
+           
+           <!--
+           <form action="#" method="post">
+            <div class="form-group" >
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="contact">Contact #:</label>
+                <input type="text" id="contact" name="contact" placeholder="Contact #" required>
+            </div>
+
+              <div class="form-group">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Address " required>
+            </div>
+
+            <div class="form-group">
+                <label for="appointment-date">Set Appointment Date:</label>
+                <input type="date" id="appointment-date" name="appointment-date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Choose a Cleaning Services:</label>
+                <select id="service" name="service" required>
+                <option value="">-- Select a Service --</option>
+                <option value="residential">Residential Cleaning</option>
+                <option value="commercial">Commercial Cleaning</option>
+                <option value="deep">Deep Cleaning</option>
+                <option value="post-construction">Post-Construction Cleaning</option>
+                <option value="move">Move-In / Move-Out Cleaning</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn-book">Submit</button>
+            </form>
+          -->
+        </div>
+    </section>
+
+
+
+          <!--Contact-->
+    <section class="contact">
+            <div class="contact-container" data-aos-delay="100">
+                <div class="contact-info" data-aos-delay="100">
+                    <div class="contact-info-img">
+                        <img src="IMG/logo.png" alt="logo" width="200px">
+                        <h2><img src="IMG/address.png" alt="" width="30px" class="address">Address:</h2>
+                        <p>Brgy St, Middle East</p>
+                       <h2> <img src="IMG/phone-call.png" alt="" width="30px" class="phone">Contact:</h2>
+                        <p>+9778945612</p>
+                        <h2> <img src="IMG/email.png" alt="" width="30px" class="email">Email:</h2>
+                        <p>demarderozan@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="form-action-contact"  >
+                        <h3>Contact Us</h3>
+<iframe aria-label='Service Booking Form' frameborder="0" style="height:1000px;width:99%;border:none;"src='https://forms.zohopublic.com/cservices788gm1/form/ContactUsForm/formperma/7CRz-ixp_lYZRVRcQrOM1_bIHvG_1t8r3tGARQd8Yq4'></iframe>          <!--
+                        <form action="#" method="post">
+                                 <div class="form-group-contact">
+                                    <label for="name" id="name">Name:</label>
+                                    <input type="text" id="name" placeholder="Name" required>
+                                </div>
+
+                                <div class="form-group-contact">
+                                    <label for="email" id="name">email:</label>
+                                    <input type="email" id="email" placeholder="email" required>
+                                </div>
+
+                                <div class="form-group-contact">
+                                    <label for="address" id="name">Address:</label>
+                                    <input type="address" id="address" placeholder="Address" required>
+                                </div>
+
+                                <div class="form-group-contact">
+                                    <label for="contact" id="name">contact:</label>
+                                    <input type="contact" id="contact" placeholder="contact" required>
+                                </div>
+
+                                <div class="form-group-contact">
+                                    <label for="message" id="name">Message:</label>
+                                    <textarea id="message" placeholder="Your message here..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn-book">Submit</button>
+                    </form>-->
+                    </div>
+
+    
+  </div>
+</section>
+  </main>
+
+ 
+  <footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h2 data-en="Follow Us" data-ar="تابعنا">Follow Us</h2>
+             <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+             <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+             <a href="https://facebook.com" target="_blank"><i class="fab fa-instagram"></i></a>
+             <a href="https://facebook.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+
+         <div class="footer-address">
+            <h2 data-en="Dubai" data-ar="دبي">Dubai</h2>
+            <p data-en="Brgy St, Middle East" data-ar="شارع برغي، الشرق الأوسط">Brgy St, Middle East</p>
+            <p data-en="Contact:" data-ar="اتصال:"><img src="IMG/phone-call.png" alt="" width="30px" class="phone">Contact:
+                        +9778945612</p>
+            <p data-en="Email:" data-ar="البريد الإلكتروني:"> <img src="IMG/email.png" alt="" width="30px" class="email">Email:
+                        demarderozan@gmail.com</p>
+         </div>
+
+         <div class="footer-iso">
+            <h2 data-en="Accreditations" data-ar="الاعتمادات">Accreditations</h2>
+            <img src="IMG/accreditations.png" alt="" width="350px">
+         </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  const navLinks = document.querySelectorAll('.nav-link');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', function () {
+      navLinks.forEach(l => l.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>
+
+
+
+
+
+  <!-- LANGUAGE SWITCH SCRIPT -->
+  <script>
+   const translationMap = {
+  "Home": "الرئيسية",
+  "About Us": "معلومات عنا",
+  "Contact Us": "اتصل بنا",
+  "Language": "اللغة",
+  "Services": "الخدمات",
+  "Residential Cleaning": "تنظيف سكني",
+  "Commercial Cleaning": "تنظيف تجاري",
+  "Deep Cleaning": "تنظيف عميق",
+  "Post-Construction Cleaning": "تنظيف ما بعد البناء",
+  "Move In / Move Out Cleaning": "تنظيف الانتقال/الخروج",
+  "Move-in/Move-Out": "تنظيف الانتقال/الخروج",
+  "Book Now": "احجز الآن",
+  "Your Trusted Partner in Clean Living": "شريكك الموثوق للنظافة",
+  "From residential homes to large commercial buildings, we offer customized cleaning solutions with guaranteed satisfaction.": "من المنازل السكنية إلى المباني التجارية الكبيرة، نقدم حلول تنظيف مخصصة مع ضمان الرضا.",
+  "Welcome to Dessert Bloom Cleaning": "مرحبًا بكم في ديسرت بلوم للتنظيف",
+  "Follow Us": "تابعنا",
+  "Dubai": "دبي",
+  "Accreditations": "الاعتمادات",
+  "Contact:": "اتصال:",
+  "Email:": "البريد الإلكتروني:"
+};
+
+    function changeLanguage(lang) {
+      document.documentElement.lang = lang;
+      document.documentElement.setAttribute("dir", lang === "ar" ? "rtl" : "ltr");
+
+      document.querySelectorAll("h1,h2,h3,h4,p,a,span").forEach(el => {
+        const text = el.textContent.trim();
+        if (lang === "ar" && translationMap[text]) {
+          el.textContent = translationMap[text];
+        } else if (lang === "en") {
+          const original = Object.keys(translationMap).find(k => translationMap[k] === text);
+          if (original) el.textContent = original;
+        }
+      });
+
+      document.querySelectorAll("[data-en][data-ar]").forEach(el => {
+        el.textContent = lang === "ar" ? el.getAttribute("data-ar") : el.getAttribute("data-en");
+      });
+
+      document.getElementById("bootstrapCSS").href = lang === "ar"
+        ? "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        : "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";
+
+      const nav = document.querySelector(".navbar-nav");
+      if (nav) {
+        nav.classList.remove("mx-auto", "me-auto", "ms-auto", "justify-content-center", "justify-content-end");
+        if (lang === "ar") {
+          nav.classList.add("ms-auto", "justify-content-end");
+        } else {
+          nav.classList.add("mx-auto", "justify-content-center");
+        }
+      }
+
+      document.querySelectorAll(".dropdown-toggle").forEach(el => {
+        bootstrap.Dropdown.getOrCreateInstance(el);
+      });
+
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+      if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+        new bootstrap.Collapse(navbarCollapse, { toggle: false }).hide();
+      }
+
+      window.dispatchEvent(new Event("resize"));
+    }
+
+    document.querySelectorAll('.language-option').forEach(button => {
+      button.addEventListener('click', function (e) {
+        e.preventDefault();
+        const selectedLang = this.getAttribute('data-lang');
+        changeLanguage(selectedLang);
+      });
+    });
+  </script>
+
+
+
+
+     <!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
